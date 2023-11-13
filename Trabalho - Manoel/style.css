@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.insta_image {
+    border-radius: 6px;
+    margin-right: 0.5rem;
+}
+
+nav {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: left;
+    text-align: left;
+    font-size: 1.02rem;
+    background: fixed /* cor */;
+}
+
+nav ul li a:hover {
+    font-size: 1.04rem;
+    transition: ease 0.2s;
+}
