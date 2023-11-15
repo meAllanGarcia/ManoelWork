@@ -49,3 +49,18 @@ nav ul li a:hover {
     border: 1px solid;
     border-radius: 5px;
 }
+
+#bot-temaB {
+    background: fixed #ffffff;
+    color: #000000;
+}
+
+#bot-temaP {
+    background: fixed #000000;
+    color: #ffffff;
+}
+
+#bot-temaC {
+    background: fixed #424141;
+    color: #ffffff;
+}
