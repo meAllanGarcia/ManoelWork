@@ -18,7 +18,34 @@ nav {
     background: fixed /* cor */;
 }
 
+body {
+    color: #424141;
+}
+
 nav ul li a:hover {
     font-size: 1.04rem;
     transition: ease 0.2s;
+}
+
+#title {
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 28px;
+}
+
+.bot-tema {
+    margin-left: 0.4rem;
+    margin-bottom: 0.2rem;
+    display: flex; 
+    justify-content: left; 
+    align-items: center; 
+    text-align: left;
+}
+
+.bot-tema-change {
+    border: 1px solid;
+    border-radius: 5px;
 }
