@@ -16,6 +16,7 @@ function temaP() {
 }
 
 function temaC() {
+    document.getElementById(title).body.style.background = 'white'    
     document.body.style.background = '#424141'
     document.body.style.color = '#ffffff'
 }

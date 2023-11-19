@@ -1,6 +1,24 @@
+* {
+    font-family: Arial, monospace, 'times new roman';
+    font-size: 18px;
+}
+
 body {
     margin: 0;
     padding: 0;
+}
+
+/* Largura da scrollbar */
+body::-webkit-scrollbar {
+    width: 0.4em;
+   
+}
+
+/* Cor da Scrollbar + Arredondamento*/
+body::-webkit-scrollbar-thumb {
+    background-color: rgb(0, 0, 0);
+    outline: 1px solid rgb(48, 112, 175);
+    border-radius: 7px;
 }
 
 .insta_image {
@@ -28,6 +46,9 @@ nav ul li a:hover {
 }
 
 #title {
+    text-decoration: underline wavy #0d3d4d;
+    font-weight: bold;
+    font-style: normal;
     margin-top: 1.5rem;
     display: flex;
     justify-content: center;
@@ -63,4 +84,42 @@ nav ul li a:hover {
 #bot-temaC {
     background: fixed #424141;
     color: #ffffff;
+}
+
+main #content .texto {
+    text-align: justify;
+}
+
+main #content #rodape #sobre {
+    margin: 1.3rem;
+    text-align: right;
+}
+
+main #content .texto #sobre strong a {
+    text-decoration: none;
+}
+
+main #content #capa-livro {
+    display: flex;
+    justify-content: left;
+    text-align: left;
+    width: 15rem;
+    height: 15rem;
+    position: relative;
+    left: -1rem;
+    top: -12rem;
+}
+
+main #content .texto {
+    margin-top: -10rem;
+}
+
+main #content .texto {
+    text-align: justify;
+    width: 50rem;
+    margin-left: 15%;
+}
+
+#separa {
+    color: #000000;
 }
