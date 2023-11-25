@@ -103,11 +103,11 @@ main #content #capa-livro {
     display: flex;
     justify-content: left;
     text-align: left;
-    width: 15rem;
-    height: 15rem;
+    width: 4rem;
+    height: 4rem;
     position: relative;
-    left: -1rem;
-    top: -12rem;
+    left: 0.39rem;
+    top: -23.2rem;
 }
 
 main #content .texto {
@@ -116,10 +116,32 @@ main #content .texto {
 
 main #content .texto {
     text-align: justify;
-    width: 50rem;
+    width: 12.7rem;
     margin-left: 15%;
 }
 
 #separa {
     color: #000000;
 }
+
+#temaChange {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+#dropdwon-CoresTema {
+    border: none;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 1.3rem;
+}
+
+#margin-sup_tema {
+    color: #2e2e3f;
+    margin-top: 1.5rem;
+}
+
