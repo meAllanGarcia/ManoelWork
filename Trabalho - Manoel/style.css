@@ -103,11 +103,11 @@ main #content #capa-livro {
     display: flex;
     justify-content: left;
     text-align: left;
-    width: 6rem;
-    height: 6rem;
+    width: 4.2rem;
+    height: 4.2rem;
     position: relative;
     left: 3rem;
-    top: -20.7rem;
+    top: -18.4rem;
 }
 
 main #content .texto {
@@ -116,9 +116,9 @@ main #content .texto {
 
 main #content .texto {
     text-align: justify;
-    width: 22rem;
-    margin-top: -2rem;
-    margin-left: 10%;
+    width: 23.1rem;
+    margin-top: -3.8rem;
+    margin-left: 9%;
 }
 
 #separa {
