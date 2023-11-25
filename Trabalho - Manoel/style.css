@@ -4,6 +4,8 @@
 }
 
 body {
+    max-width: 100%;
+    min-width: none;
     margin: 0;
     padding: 0;
 }
@@ -91,6 +93,8 @@ main #content .texto {
 }
 
 main #content #rodape #sobre {
+    font-size: 17.56px;
+    max-width: 100%;
     margin: 1.3rem;
     text-align: right;
 }
@@ -148,4 +152,21 @@ main #content .texto {
 
 #dropdown-menu_inte {
     width: 10rem;
+}
+
+main #content .card {
+    margin: 5rem 5rem 0 5rem;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+main #content .card .card-title {
+    text-decoration: underline;
+    margin-bottom: 1rem;
+}
+
+main #content .card .card-text {
+    text-align: justify;
 }
