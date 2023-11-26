@@ -4,6 +4,7 @@
 }
 
 body {
+    color: #1f1e1e;
     max-width: 100%;
     min-width: none;
     margin: 0;
@@ -35,11 +36,7 @@ nav {
     justify-content: left;
     text-align: left;
     font-size: 1.02rem;
-    background: fixed /* cor */;
-}
-
-body {
-    color: #424141;
+    background: fixed;
 }
 
 nav ul li a:hover {
@@ -110,8 +107,8 @@ main #content #capa-livro {
     width: 4.2rem;
     height: 4.2rem;
     position: relative;
-    left: 3rem;
-    top: -18.4rem;
+    left: 4rem;
+    top: -17rem;
 }
 
 main #content .texto {
@@ -169,4 +166,37 @@ main #content .card .card-title {
 
 main #content .card .card-text {
     text-align: justify;
+}
+
+footer {
+    margin-top: 4rem;
+    color: #ffffff;
+    background: fixed rgb(30, 26, 26);
+}
+
+footer #contentFooterBox {
+    opacity: 100%;
+}
+
+footer #text-esq {
+    display: flex;
+    text-align: left;
+    align-items: center;
+    font-size: 16px;
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+
+footer #text-meio {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+footer #text-dir {
+    display: inline-flex;
+    text-align: right;
+    justify-content: right;
+    align-items: center;
 }
