@@ -35,14 +35,13 @@ main #container {
     padding: 2px;
 }
 
-nav {
+header nav {
     padding: 0;
-    margin: 0;
+    margin: -9px;
     display: flex;
     justify-content: left;
     text-align: left;
     font-size: 1.02rem;
-    background: fixed;
 }
 
 nav ul li a:hover {
@@ -60,6 +59,18 @@ nav ul li a:hover {
     align-items: center;
     text-align: center;
     font-size: 28px;
+}
+
+#troca-cores {
+    border: 1px solid #ffffff;
+}
+
+header nav ul#dropdown-menu_inte {
+    background: fixed linear-gradient(90deg, #e3e0e0, #040429, #000000);
+}
+
+header nav ul#dropdown-CoresTema {
+    background: fixed #F36E20;
 }
 
 .bot-tema {
@@ -139,7 +150,7 @@ main #content .texto {
     align-items: center;
 }
 
-#dropdwon-CoresTema {
+#dropdown-CoresTema {
     border: none;
     display: flex;
     justify-content: center;
@@ -261,3 +272,6 @@ address {
     transition: ease 0.17s;
 }
 
+header nav .container-fluid {
+    background: fixed #F36E20;
+}
