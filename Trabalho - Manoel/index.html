@@ -99,73 +99,86 @@
 
     <!-- Conteúdo principal -->
     <main>
-        <!-- Abretura da div de conteúdo -->
-        <div id="content">
-          <h1 id="title">Eu, Robô</h1>
-          <hr>
-
-          <!-- Início da div rodapé -->
-          <div id="rodape">
-            <p id="sobre">
-              Data da primeira publicação: 2 de dezembro de 1950 <br>
-              Autor: <strong><a href="https://www.ebiografia.com/isaac_asimov/" target="_blank" rel="external">Isaac Asimov</a></strong> <br>
-              Gêneros: Ficção científica, Conto, Romance e Literatura fantástica <br>
-              <a href="elenco.html">Personagens</a> <br>
-              Adaptações: Eu, Robô (2004) <br>
-            </p>
+       <!-- Abertura do container -->
+        <div id="container">
+           <!-- Abretura da div de conteúdo -->
+          <div id="content">
+            <h1 id="title">Eu, Robô</h1>
+            <hr>
+            <!-- Início da div rodapé -->
+            <div id="rodape">
+              <p id="sobre">
+                Data da primeira publicação: 2 de dezembro de 1950 <br>
+                Autor: <strong><a href="https://www.ebiografia.com/isaac_asimov/" target="_blank" rel="external">Isaac Asimov</a></strong> <br>
+                Gêneros: Ficção científica, Conto, Romance e Literatura fantástica <br>
+                <a href="elenco.html">Personagens</a> <br>
+                Adaptações: Eu, Robô (2004) <br>
+              </p>
+            </div>
+            <!-- Fim do div -->
+          
+            <!-- Linha separatória -->
+            <hr id="separa">
+            <!-- Imagem da capa do livro -->
+            <img src="imagens/capa-livro.jpeg" alt="Imagem da capa do livro 'Eu, Robô'." id="capa-livro" draggable="false">
+          
+            <!-- Div caixa de texto -->
+            <div class="texto">
+               <p class="hist">
+                  O livro conta a história de uma sociedade futura, onde os robôs estão se tornando cada vez mais comum e importantes. Mas isso leva a vários problemas éticos e morais, em que os robôs são confrontados com questões sobre a sua own existência e funcionamento. No mundo do livro, os robôs são criados para serverem aos humanos. Mas será que eles podem passar de simples ferramentas para algo mais? Essa é a questão central da história.
+               </p>
+               <p class="hist">
+                A história se passa no ano 2082 em uma sociedade futurista onde robôs são comuns e fazem parte do dia a dia das pessoas. No processo de desenvolvimento da robótica, porém, surgem várias questões éticas e morais sobre a relação entre robôs e humanos. O livro acompanha as aventuras de Elijah Baley, um detetive da polícia de Nova York que tenta resolver o mistério de um assassinato que envolve um robô.
+               </p>
+               <p class="hist">
+                Eu, Robô é um conjunto de nove contos que relatam a evolução dos autômatos através do tempo. É neste livro que são apresentadas as célebres Três Leis da Robótica: os princípios que regem o comportamento dos robôs e que mudaram definitivamente a percepção que se tem sobre eles na própria ciência.
+               </p>
+               <p class="hist">
+                O objetivo das leis, segundo o próprio Asimov, era tornar possível a coexistência de robôs inteligentes - as leis pressupõem inteligência suficiente para os robôs tomarem suas próprias decisões - e humanos; impedindo assim que aqueles venham a se rebelar contra ou mesmo subjugar estes.
+               </p>
+            </div>
+            <!-- Fim da div -->
+          
           </div>
-          <!-- Fim do div -->
-          
-          <!-- Linha separatória -->
-          <hr id="separa">
+           <!-- Fechamento da div de conteúdo -->
 
-          <!-- Imagem da capa do livro -->
-          <img src="imagens/capa-livro.jpeg" alt="Imagem da capa do livro 'Eu, Robô'." id="capa-livro" draggable="false">
-          
-          <!-- Div caixa de texto -->
-          <div class="texto">
-             <p class="hist">
-                O livro conta a história de uma sociedade futura, onde os robôs estão se tornando cada vez mais comum e importantes. Mas isso leva a vários problemas éticos e morais, em que os robôs são confrontados com questões sobre a sua own existência e funcionamento. No mundo do livro, os robôs são criados para serverem aos humanos. Mas será que eles podem passar de simples ferramentas para algo mais? Essa é a questão central da história.
-             </p>
-             <p class="hist">
-              A história se passa no ano 2082 em uma sociedade futurista onde robôs são comuns e fazem parte do dia a dia das pessoas. No processo de desenvolvimento da robótica, porém, surgem várias questões éticas e morais sobre a relação entre robôs e humanos. O livro acompanha as aventuras de Elijah Baley, um detetive da polícia de Nova York que tenta resolver o mistério de um assassinato que envolve um robô.
-             </p>
-          </div>
-          <!-- Fim da div -->
-          
         </div>
-        <!-- Fechamento da div de conteúdo -->
+        <!-- Fim do container -->
+       
     </main>
     <!-- Fim do Main -->
     
     <!-- Início do rodapé -->
-    <footer>
-      <!-- Início da caixa de conteúdo do rodapé -->
-      <div id="contentFooterBox">
-        
-        <!-- Texto da esquerda -->
-        <strong>
-          <p id="text-esq">
-            
-          </p>
-        </strong>
-
-        <!-- Texto do meio -->
-        <strong>
-          <p id="text-meio">
-          
-          </p>
-        </strong>
-
-        <!-- Texto da direita -->
-        <strong>
-          <p id="text-dir">
-          </p>
-        </strong>
-
+    <footer class="rodape" id="contato">
+      <div class="rodape-div">
+  
+          <div class="rodape-div-1">
+              <div class="rodape-div-1-coluna">
+                  <!-- elemento -->
+                  <span><a href="https://deassis.educacao.sp.gov.br/rachid-jabur-ee/" target="_blank" rel="external"><img id="imagem-rachid" src="imagens/rj.ico" alt="Imagem Rachid Jabur"></a></span>
+                  <address>Av. da Saudade, 193 - Centro, Cândido Mota - SP, 19880-000</address>
+              </div>
+          </div>
+  
+          <div class="rodape-div-2">
+              <div class="rodape-div-2-coluna">
+                  <!-- elemento -->
+                  <span><b>Contatos</b></span>
+                  <p>00001089796717sp@al.educacao.sp.gov.br</p>
+              </div>
+          </div>
+  
+          <div class="rodape-div-3">
+              <div class="rodape-div-3-coluna">
+                  <!-- elemento -->
+                  <span><b>Links</b></span>
+                  <p><a id="github-link" href="https://github.com/meAllanGarcia" target="_blank" rel="external">GitHub</a></p>
+              </div>
+          </div>
+  
       </div>
-      <!-- Término da div da caixa de conteúdo do rodapé -->
-    </footer>
+      <p class="rodape-direitos">Copyright © 2023 – Todos os Direitos Reservados.</p>
+  </footer>
 
     <!-- Scripts para melhor aproveitamento do site (site resposivo entre outros) -->
       <!-- Meu JS -->

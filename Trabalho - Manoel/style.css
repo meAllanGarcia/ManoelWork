@@ -29,6 +29,12 @@ body::-webkit-scrollbar-thumb {
     margin-right: 0.5rem;
 }
 
+main #container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 2px;
+}
+
 nav {
     padding: 0;
     margin: 0;
@@ -168,7 +174,8 @@ main #content .card .card-text {
     text-align: justify;
 }
 
-footer {
+footer .rodape {
+    max-width: 100%;
     margin-top: 4rem;
     color: #ffffff;
     background: fixed rgb(30, 26, 26);
@@ -178,25 +185,79 @@ footer #contentFooterBox {
     opacity: 100%;
 }
 
-footer #text-esq {
-    display: flex;
-    text-align: left;
-    align-items: center;
-    font-size: 16px;
-    margin-top: 1rem;
-    margin-left: 1rem;
+.rodape {
+    background-color: #f36e20;
+    color: white;
+    height: auto;
+    width: 100%;
+    font-size: 14px;
+    font-family: helvetica;
 }
 
-footer #text-meio {
+.rodape a {
+    text-decoration: none;
+    color: white;
+}
+
+.rodape p {
+    margin-bottom: 5px;
+}
+
+.rodape-div {
     display: flex;
+    flex-wrap: wrap;
+    width:100%;
+    margin: auto;
+    align-items: stretch;
+    padding: 60px 10px 40px 10px;
+}
+
+.rodape-div-1, .rodape-div-2, .rodape-div-3 {
+    display: flex;
+    width: calc(100% / 4 - 20px);
+    padding: 10px;
+}
+
+.rodape span {
+    font-size: 20px;
+    color: white;
+}
+
+.rodape-direitos {
+    width: calc(100% - 0);
+    background-color: black;
+    padding: 10px;
+    margin: 0 auto;
     text-align: center;
-    justify-content: center;
-    align-items: center;
 }
 
-footer #text-dir {
-    display: inline-flex;
-    text-align: right;
-    justify-content: right;
-    align-items: center;
+/*mobile*/
+@media (max-width: 768px) {
+    .rodape-div-1, .rodape-div-2 {
+        width: calc(100% - 20px);
+        padding: 10px;
+    }
+    .rodape-div{
+        padding: 60px 0px 40px 0px;
+    }
 }
+
+a #imagem-rachid {
+    border: none;
+    border-radius: 25%;
+    width: 75px;
+    height: 75px;
+    margin-bottom: 0.5rem;
+    padding: 0;
+}
+
+address {
+    margin: 0 auto;
+    padding: 0;
+}
+
+#github-link:hover {
+    color: #be0f0f;
+    transition: ease 0.17s;
+}
+
